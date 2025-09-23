@@ -104,7 +104,7 @@ Esta sección detalla la arquitectura y tecnologías a implementar, diferenciand
 4. **Routing y Clasificación de Intenciones:**  
    * A medida que el agente gane capacidades, un router inicial clasificará la intención de Sere ("quiero una idea", "analiza este vídeo", "dame datos sobre el magnesio") para dirigir la petición al agente o cadena correcta, optimizando la eficiencia.  
 5. **Guardrails:**  
-   * Implementar una capa de seguridad (ej: Nemo Guardrails o similar) para evitar que el agente genere consejos médicos o haga afirmaciones de salud no permitidas, asegurando que siempre se mantenga en el ámbito del coaching nutricional.  
+   * Implementar una capa de seguridad (ej: Nemo Guardrails o similar) para evitar que el agente genere consejos médicos o haga afirmaciones de salud no permitidas, asegurando que siempre se mantenga en el ámbito del coaching nutricional.  Limotando al agente a hacer videos cómo "Baja 5 kilos en 24horas"
 6. **Evaluación (Evaluation):**  
    * En LangSmith, crear datasets de evaluación con ejemplos de "prompts de Sere" y "respuestas ideales". Configurar evaluadores automáticos que midan la calidad de las respuestas (ej: ¿la respuesta tiene base nutricional?, ¿incluye un CTA?, ¿el gancho es potente?).  
 7. **Reflection (Auto-Mejora):**  
