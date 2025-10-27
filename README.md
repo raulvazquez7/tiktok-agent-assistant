@@ -8,6 +8,6 @@ This project is a work in progress.
 
 ## Current Status
 
-🚧 **Under Heavy Development** 🚧
+🚧 **Under Development** 🚧
 
 The project is currently in its initial phase, focused on building the core agent logic and foundational tools using **LangGraph** adn the RAG System. The features and setup instructions will be updated as the agent evolves.
